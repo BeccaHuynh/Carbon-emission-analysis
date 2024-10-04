@@ -31,6 +31,7 @@ The result:
 | 2015 | 10840415     | 
 | 2016 | 1640182      | 
 | 2017 | 340271       | 
+
 > Overview, there is a fluctuation in carbon footprints (PCFs) from 2013 to 2017. The carbon footprints reach its peak in 2015, at 10840415 pcf and dip to its lowest point in 2017, at 340271 pcf.
 > 
 > <img src="https://github.com/BeccaHuynh/Carbon-emission-analysis/blob/main/carbon_emissions_linechart.png?raw=true" alt="alt text" width="400" />
@@ -62,7 +63,7 @@ The result:
 
 >The wind turbines in this dataset have the largest carbon emissions during production but provide the greatest long-term environmental benefits by generating clean energy. Automobiles and industrial machinery have lower initial emissions but contribute to ongoing carbon pollution during use. The data reflects the carbon intensity of producing large, resource-heavy products across various sectors.
 
-![image](https://imagenes.elpais.com/resizer/v2/DKDCIQ6RHYXBL6ELHFWOBH63OY.jpg?auth=95ddcb4576a39c99c540fabbeaa696f785b370c0f002f093ce5d6242024091d0&width=1960)
+> <img src="https://imagenes.elpais.com/resizer/v2/DKDCIQ6RHYXBL6ELHFWOBH63OY.jpg?auth=95ddcb4576a39c99c540fabbeaa696f785b370c0f002f093ce5d6242024091d0&width=1960" alt="Description of the image" width="500"/>
 
 *Let's extract the top 10 products with the largest carbon emissions per kilogram:*
 ```sql
@@ -91,7 +92,7 @@ The result
 > - Media products, while not as high, still contribute significantly when viewed across their lifecycle. It's crucial to consider how long products are used to contextualize their environmental impact.
 > - Mobile devices show relatively lower carbon footprints per unit, but given their mass production and short lifecycle (frequent replacements), they still have a considerable cumulative environmental impact.
 ### Industry group
-> ![image](https://www.energy.gov/sites/default/files/styles/full_article_width/public/rotator_1_0.png?itok=DUxGE-1c)
+> <img src="https://github.com/BeccaHuynh/Carbon-emission-analysis/blob/main/machine_industry.png" alt="Carbon Emission Analysis" width="500"/>
 
 *Next, let's find out what are the industries with the highest contribution to carbon emissions.*
 ```sql
