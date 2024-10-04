@@ -12,7 +12,8 @@ Our dataset is compiled from publicly available data from nature.com and encompa
 
 ### Data Structure
 The dataset consists of 4 tables containing information regarding carbon emissions generated during the production of goods.
-![alt text](https://github.com/BeccaHuynh/Carbon-emission-analysis/blob/main/database_diagram.png?raw=true)
+
+<img src="https://github.com/BeccaHuynh/Carbon-emission-analysis/blob/main/database_diagram.png?raw=true" alt="alt text" width="400" />
 
 ## 2. Carbon emission over the years
 
@@ -31,7 +32,9 @@ The result:
 | 2016 | 1640182      | 
 | 2017 | 340271       | 
 > Overview, there is a fluctuation in carbon footprints (PCFs) from 2013 to 2017. The carbon footprints reach its peak in 2015, at 10840415 pcf and dip to its lowest point in 2017, at 340271 pcf.
-> ![alt text](https://github.com/BeccaHuynh/Carbon-emission-analysis/blob/main/carbon_emissions_linechart.png?raw=true)
+> 
+> <img src="https://github.com/BeccaHuynh/Carbon-emission-analysis/blob/main/carbon_emissions_linechart.png?raw=true" alt="alt text" width="400" />
+
 ## 3. The largest contributors to carbon emissions
 ### Product
 *Creating a list with top 10 products that its manufacturing process emits the most CO2:*
@@ -58,6 +61,7 @@ The result:
 | Average of all GM vehicles produced and used in the 10 year life-cycle.                                                            | Automobiles & Components           | 100621       | 
 
 >The wind turbines in this dataset have the largest carbon emissions during production but provide the greatest long-term environmental benefits by generating clean energy. Automobiles and industrial machinery have lower initial emissions but contribute to ongoing carbon pollution during use. The data reflects the carbon intensity of producing large, resource-heavy products across various sectors.
+
 ![image](https://imagenes.elpais.com/resizer/v2/DKDCIQ6RHYXBL6ELHFWOBH63OY.jpg?auth=95ddcb4576a39c99c540fabbeaa696f785b370c0f002f093ce5d6242024091d0&width=1960)
 
 *Let's extract the top 10 products with the largest carbon emissions per kilogram:*
