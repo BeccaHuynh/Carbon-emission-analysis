@@ -12,6 +12,7 @@ Our dataset is compiled from publicly available data from nature.com and encompa
 
 ### Data Structure
 The dataset consists of 4 tables containing information regarding carbon emissions generated during the production of goods.
+![alt text](https://github.com/BeccaHuynh/Carbon-emission-analysis/blob/main/database_diagram.png?raw=true)
 
 ## 2. Carbon emission over the years
 
@@ -29,9 +30,8 @@ The result:
 | 2015 | 10840415     | 
 | 2016 | 1640182      | 
 | 2017 | 340271       | 
-
 > Overview, there is a fluctuation in carbon footprints (PCFs) from 2013 to 2017. The carbon footprints reach its peak in 2015, at 10840415 pcf and dip to its lowest point in 2017, at 340271 pcf.
-![image](https://plus.unsplash.com/premium_photo-1661898205432-d648667b9c76?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+> ![alt text](https://github.com/BeccaHuynh/Carbon-emission-analysis/blob/main/carbon_emissions_linechart.png?raw=true)
 ## 3. The largest contributors to carbon emissions
 ### Product
 *Creating a list with top 10 products that its manufacturing process emits the most CO2:*
